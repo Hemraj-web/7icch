@@ -1,0 +1,9 @@
+@media (max-width: 575.98px) {
+    /*  slider section */
+    .hero__slider .hero__content h1 {
+        font-size: 2.2rem;
+    }
+    .hero__slider .hero__content h1 span{
+        font-size: 1.5rem;
+    }
+}

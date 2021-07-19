@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="025910c0-8b8f-4815-8868-1ed75948b64c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,14 +28,30 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1vLbKrq94ToY6pB3p9O319THj8W" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -33,11 +67,36 @@
       <option name="presentableId" value="Default" />
       <updated>1626344256103</updated>
       <workItem from="1626344257210" duration="706000" />
-      <workItem from="1626344975917" duration="347000" />
+      <workItem from="1626344975917" duration="1052000" />
+      <workItem from="1626348991317" duration="4097000" />
+      <workItem from="1626428629233" duration="4383000" />
+      <workItem from="1626435431115" duration="2015000" />
+      <workItem from="1626453399403" duration="1080000" />
+      <workItem from="1626689407439" duration="288000" />
+      <workItem from="1626691683902" duration="205000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="635" y="354" key="NewPhpFileDialog" timestamp="1626431984126">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1126" y="555" key="NewPhpFileDialog/-1920.112.1920.1030/0.0.1536.824@-1920.112.1920.1030" timestamp="1626352416652" />
+    <state x="635" y="354" key="NewPhpFileDialog/-1920.112.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1626431984126" />
   </component>
 </project>

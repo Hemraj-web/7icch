@@ -1,0 +1,1112 @@
+/*************************************************
+**************************************************
+
+Website Name:7ICCH
+Website URL:7ICCH
+Website Author: Digital Connection
+Author URL: https://www.digitalconnection.pt/
+Copyright 2021. All Rights Reserved.
+Developer: Hem Raj Bhatt
+/*************************************************
+************************************************** */
+/* font */
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('..fonts/MinionPro-Bold.eot');
+    src: url('..fonts/MinionPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('..fonts/MinionPro-Bold.woff2') format('woff2'),
+    url('..fonts/MinionPro-Bold.woff') format('woff'),
+    url('..fonts/MinionPro-Bold.ttf') format('truetype'),
+    url('..fonts/MinionPro-Bold.svg#MinionPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* ---------------------------------
+font-family: 'Montserrat', sans-serif;
+
+font-family: 'Open Sans', sans-serif;
+---------------------------------  */
+
+/****************
+Color Guide
+****************/
+
+:root{
+    --main-color:#DE7680;
+}
+*, *::after, *::before{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-family: 'Minion Pro';
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+/* ========================   Nav Section Section Open =========================  */
+
+
+.topBar .navbar-brand img {
+    max-width: 150px;
+}
+
+.topBar nav{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: var(--main-color);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    padding-left: 63px;
+}
+.topBar .navbar .dropdown-item{
+    font-size: 1.2rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+.topBar .navbar .dropdown-item:hover{
+    background: white;
+    color: var(--main-color);
+}
+.topBar .navbar .dropdown-menu {
+    background-color: var(--main-color);
+}
+/* ========================   Nav Section Section Close  =========================  */
+
+/* ========================   Hero Section Open =========================  */
+.hero__slider{
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+
+.hero__slider .hero__content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.hero__slider .hero__content h1 span{
+    font-size: 2.9rem;
+}
+.hero__slider .hero__content h1{
+    color: #fff;
+    font-family: 'Minion Pro';
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.hero__slider .hero__content p{
+    color: #fff;
+    font-size: 1.4rem;
+    background: var(--main-color);
+    padding: 6px 25px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+/* ========================   Hero Section Close  =========================  */
+
+
+/* ========================  seventh-international Section Open  =========================  */
+.seventh__right{
+    background: var(--main-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 25px;
+}
+.seventh-international .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.seventh__right h2{
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: 'Minion Pro';
+    font-weight: 500;
+    padding-bottom: 55px;
+}
+
+.seventh__right p{
+    color: #fff;
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.seventh__right h5{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+   font-style: italic;
+    font-weight: bold;
+}
+
+.seventh__right  a{
+    background: #fff;
+    color: var(--main-color);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding: 5px 25px;
+    display: block;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 35px 0;
+    transition: .3s ease-out;
+}
+.seventh__right  a:hover{
+    background: #a0303a;
+    color: #fff;
+}
+
+p.note__seventh {
+    font-family: 'Minion Pro';
+    font-style: italic;
+}
+
+
+/* ========================  seventh-international Section Close  =========================  */
+
+/* ========================  home__info__box Section Close  =========================  */
+.home__info__box {
+   margin-top: 25px;
+}
+
+.home__info__box  .info__box {
+
+    position: relative;
+     height: 100%;
+    min-height: 555px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s ease-out;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+
+
+.home__info__box  .info__box h2{
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Minion Pro';
+    margin-bottom: 25px;
+    text-align: center;
+    width: 100%;
+}
+/* .home__info__box  .info__box  .info__overlay {
+ display: none;
+}
+.home__info__box  .info__box:hover .info__overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+*/
+
+.home__info__box  .info__box:hover  .info__overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(222,118,128,0.7);
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.home__info__box  .info__box:hover  .info__overlay p{
+   display: block;
+    opacity: 1;
+}
+.home__info__box  .info__box  .info__overlay p{
+   display: none;
+    transition: opacity 1s ease-out;
+    opacity: 0;
+}
+
+
+.home__info__box  .info__box:hover h2{
+    text-align: left;
+}
+
+
+.home__info__box  .info__box  .info__overlay p{
+    color: #fff;
+    font-size: 1.3rem;
+}
+.home__info__box  .info__box:hover  .info__overlay a{
+    display: block;
+}
+.home__info__box  .info__box  .info__overlay a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+    display: none;
+}
+
+.home__info__box  .info__box  .info__overlay a .fa-arrow-right{
+    background: #fff;
+    color: var(--main-color);
+  margin-left: 20px;
+    height: 35px;
+    width: 35px;
+    border-radius: 35px;
+    text-align: center;
+    line-height: 35px;
+    transform: rotate(-22deg);
+}
+
+/* ========================  home__info__boxSection Close  =========================  */
+
+/* ========================  footer icon section Open  =========================  */
+
+.footer-icon {
+    margin-top: 25px;
+
+}
+
+.footer-icon .col-md-6{
+    margin-bottom: 20px;
+}
+.footer-icon h2{
+    color:var(--main-color);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.ft__logo {
+    margin-top: 30px;
+}
+.footer-icon .organization__logos img {
+    max-width: 142px;
+    margin-top: 28px;
+}
+
+.footer-icon .support__logos img {
+ max-width: 142px; 
+ margin-top: 28px;
+}
+/* ========================  footer icon section Close  =========================  */
+
+/* ========================  footer  section Open  =========================  */
+
+.footer__section {
+    border-top: 3px solid #806367;
+    margin-top: 25px;
+    padding: 35px 0;
+
+}
+
+.footer__part {
+    align-items: center;
+}
+
+.footer__section .footer__nav ul li{
+    list-style: none;
+
+}
+.footer__section .footer__nav ul li a{
+    color: var(--main-color);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height:40px;
+    text-decoration: none;
+    transition: 0.5s ease-out;
+}
+.footer__section .footer__nav ul li a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+.footer__section  ul.address{
+   display: block;
+}
+
+.footer__section  ul.address li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+/* ========================  footer section Close  =========================  */
+
+/* ================================================================================
+************************************************************************************
+                             WELCOME MESSAGE
+************************************************************************************
+=======================================================================================  */
+
+/* ========================  Page header section Open  =========================  */
+
+.page__header {
+    background: var(--main-color);
+    margin-top: 85px;
+    padding: 25px 0;
+}
+.page__header .page__header__heading h2{
+    color: #fff;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+.message {
+    margin-top: 55px;
+}
+.message p{
+    font-size: 1.1rem;
+
+}
+.main__message {
+    margin-bottom:30px;
+}
+.message span{
+    color: var(--main-color);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.message span .fa-plus {
+    height: 35px;
+    width: 35px;
+    border-radius: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: var(--main-color);
+    color: #fff;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+
+.message .figure-caption {
+
+    font-size: 13px;
+}
+
+#hide__show__Welcome {
+    display: none;
+}
+
+#welcome__btn__js.active i::before{
+    content:"\f068" ;
+}
+
+
+/* ========================  Page header section Close   =========================  */
+
+/* ================================================================================
+************************************************************************************
+                          IMPORTANT DATES
+************************************************************************************
+=======================================================================================  */
+
+/* ========================  main date section Open  =========================  */
+.important__date {
+ background: var(--main-color);
+    border-top: 5px solid #fff;
+    padding: 5% 0;
+}
+
+.important__date ul li {
+    list-style-type: none;
+    font-size: 1.2rem;
+    color: #fff;
+   margin-bottom: 25px;
+}
+.important__date img{
+    padding-bottom: 25px;
+}
+.important__date ul li span{
+ font-weight: bold;
+}
+
+.important__date  .date__items {
+    padding-bottom: 25px;
+}
+
+.important__date  .date__list {
+    padding-top: 25px;
+}
+
+/* ========================  main date section Close   =========================  */
+
+
+/* ================================================================================
+************************************************************************************
+                       Committees
+************************************************************************************
+=======================================================================================  */
+
+/* ======================== Committees section Open  =========================  */
+.committees .committees__items{
+    padding:45px 0;
+}
+
+.committees .committees__items h2{
+    color: var(--main-color);
+    font-weight: bold;
+}
+.committees .committees__items img{
+    margin-bottom: 25px;
+}
+
+.committees__left {
+    display: flex;
+    flex-direction: column;
+}
+.committees .committees__items  .committees__left h2{
+  font-size: 1.4rem;
+    padding: 16px 0;
+}
+
+.committees .committees__items  .committees__left a{
+    color: #000;
+    display: inline-block;
+    line-height:35px;
+}
+
+.committees .committees__items  .committees__left  span{
+    color: var(--main-color);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.committees .committees__items  .committees__left  span .fa-plus {
+    height: 35px;
+    width: 35px;
+    border-radius: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: var(--main-color);
+    color: #fff;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+
+#international__more {
+    display: none;
+}
+#internation__tg__Btn.active i::before{
+    content:"\f068" ;
+}
+
+#local__hide__show {
+    display: none;
+}
+
+#local__js__btn.active i::before{
+    content:"\f068" ;
+}
+/* ======================== Committees section Close   =========================  */
+
+
+/* ================================================================================
+************************************************************************************
+                   MEDIA
+************************************************************************************
+=======================================================================================  */
+
+/* ======================== media section Open  =========================  */
+.media{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+
+.media h2{
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.media  ul {
+    padding-left: unset;
+}
+
+.media ul li{
+    list-style: none;
+
+}
+.media ul li a{
+    color:#000;
+    font-size: 1.2rem;
+    display: inline-block;
+    line-height:40px;
+    text-decoration: underline;
+    transition: 0.5s ease-out;
+}
+.media ul li a:hover{
+    color: #000;
+    text-decoration: none;
+}
+/* ======================== media section close  =========================  */
+
+
+/* ================================================================================
+************************************************************************************
+                 VENUE
+************************************************************************************
+=======================================================================================  */
+
+/* ======================== venue section Open  =========================  */
+.venue {
+   background: var(--main-color);
+    border-top: 3px solid #fff;
+    padding-top: 55px;
+    padding-bottom: 40px;
+}
+.venue p{
+    font-size: 1.1rem;
+    color: #fff;
+    padding-bottom: 25px;
+}
+.venue h3{
+    color: #fff;
+    font-family: 'Minion Pro';
+}
+.venue .main__venue ul {
+    padding-left: 0;
+}
+.venue .main__venue ul li{
+  list-style-type: none;
+    line-height: 35px;
+    color: #fff;
+
+}
+/* ======================== venue section Close  =========================  */
+
+/* ================================================================================
+************************************************************************************
+                   TOPICS
+************************************************************************************
+=======================================================================================  */
+
+/* ======================== Topic section Open  =========================  */
+
+.topics {
+    margin-top: 55px;
+}
+.topics .topics__items{
+    padding:45px 0;
+}
+
+.topics .topics__items h2{
+    color: var(--main-color);
+    font-weight: bold;
+}
+.topics .topics__items img{
+    margin-bottom: 25px;
+}
+.topics .topics__items  .committees__left h2{
+    font-size: 1.4rem;
+    padding: 16px 0;
+}
+
+.topics .topics__items  a{
+    color: #000;
+    /*display: inline-block;*/
+    line-height:35px;
+}
+
+.topics .topics__items  span {
+    color: var(--main-color);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.topics .topics__items   span .fa-plus {
+    height: 35px;
+    width: 35px;
+    border-radius: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: var(--main-color);
+    color: #fff;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+
+.topics__items .topics__head p{
+    color: var(--main-color);
+}
+.topics__items p{
+    padding-bottom: 35px;
+}
+.topics__items span{
+    color: var(--main-color);
+    font-family: 'Minion Pro';
+    font-weight: bold;
+}
+
+#open__hide__show {
+    display: none;
+}
+
+#open__sessions__js__btn.active i::before{
+    content:"\f068" ;
+}
+
+#thematic__show__hide {
+    display: none;
+}
+
+#thematic__btn__js.active i::before{
+    content:"\f068" ;
+}
+
+
+/* ======================== Topics section Close   =========================  */
+/* ================================================================================
+************************************************************************************
+             Registration fees
+************************************************************************************
+=======================================================================================  */
+
+/* ======================== Registration fees section Open  =========================  */
+.registration__fees {
+    margin-top: 55px;
+}
+.registration__fees  .registration__heading {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.registration__fees  .registration__heading h2{
+    color: var(--main-color);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.registration__fees  .registration__heading p{
+    color: var(--main-color);
+}
+
+.table__border__here {
+    border:2px solid #806367;
+}
+.first__table {
+    margin-bottom: 2rem;
+}
+.first__table thead {
+    background: var(--main-color);
+    color: #fff;
+}
+
+.table-hover > tbody > tr:hover {
+    background: #efbbc0;
+}
+
+.regis-btm a{
+    background: var(--main-color);
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding: 5px 25px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 35px 0;
+    transition: .3s ease-out;
+
+}
+.regis-btm a:hover
+{background: #a0303a;
+    color: #fff;
+
+}
+
+/* ======================== Registration fees section Close  =========================  */
+
+
+/* ================================================================================
+************************************************************************************
+             Online registration
+************************************************************************************
+=======================================================================================  */
+
+/* ======================== Online registration section Open  =========================  */
+.online__registration{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.online__registration ul li{
+    list-style: none;
+
+}
+.online__registration ul li a{
+    color:#000;
+    font-size: 1.2rem;
+    display: inline-block;
+    line-height:40px;
+    text-decoration: underline;
+    transition: 0.5s ease-out;
+}
+.online__registration ul li a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.online_reg__btm {
+    text-align: center;
+    padding-top: 55px;
+}
+.online_reg__btm h2{
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
+
+.online__registration ul li {
+    padding-bottom: 1.3rem;
+    font-size: 1.2rem;
+}
+.online__registration ul li span{
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.online__registration .online_reg__heading h2{
+    color: var(--main-color);
+    text-align: center;
+    padding-bottom: 55px;
+}
+.online_reg__btm p{
+    font-size: 1.2rem;
+}
+
+/* box modal for term and condations open */
+.btn-terms__cond {
+    background: var(--main-color);
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding: 5px 25px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 35px 0;
+    transition: .3s ease-out;
+}
+.btn-terms__cond:hover
+{
+    background: #a0303a;
+    color: #fff;
+}
+
+.online__registration  .modal .modal-header h5{
+text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.online__registration  .modal-body {
+    background: var(--main-color);
+
+}
+
+.online__registration  .modal-body ul li {
+    color: #fff;
+    font-size: 1.3rem;
+}
+/* box modal for term and condations Close  */
+.online_reg__btm a{
+    color: #000;
+}
+
+.online_reg__btm a:hover{
+    color: var(--main-color);
+}
+
+
+/* ======================== Online registration section Close  =========================  */
+
+/* ================================================================================
+************************************************************************************
+                  Paper submission
+************************************************************************************
+=======================================================================================  */
+
+/* ======================== Paper submission section Open  =========================  */
+
+.paper-submission {
+   padding-top: 55px;
+    padding-bottom: 55px;
+
+    border-top: 3px solid #fff;
+    background: var(--main-color);
+}
+.paper-submission p{
+    color: #fff;
+}
+.paper-submission__btm .paper__items{
+    padding:45px 0;
+}
+
+.paper-submission__btm .paper__items h2{
+    color: var(--main-color);
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+.paper-submission__btm .paper__items img{
+    margin-bottom: 25px;
+}
+
+.paper-submission__btm {
+    margin-top: 32px;
+}
+.paper-submission__btm p {
+    font-size: 1.1rem;
+    padding-bottom: 25px;
+}
+
+.paper-submission__btm p a{
+    color: #000;
+    font-weight: normal;
+    transition: 0.5s all;
+}
+.paper-submission__btm p a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid var(--main-color);
+}
+.paper-submission__btm p span{
+    color: var(--main-color);
+  font-weight: bold;
+
+}
+/* ======================== Paper submission section Close   =========================  */
+
+/* ================================================================================
+************************************************************************************
+                  CONTACT
+************************************************************************************
+=======================================================================================  */
+
+/* ======================== contact section Open  =========================  */
+.contact__page {
+    border-top:3px solid #fff;
+    background: var(--main-color);
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.contact__main {
+    background: #fff;
+}
+
+.left__info__con {
+    padding:25px 0 25px  25px;
+}
+
+.left__info__con h2{
+    color: var(--main-color);
+}
+
+.contact__page ul {
+    padding-left: 0;
+}
+.contact__page ul li {
+    list-style: none;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+}
+.left__info__con a{
+    color: #000;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+.left__info__con .fa-envelope {
+    background: var(--main-color);
+    color: #fff;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 1.2rem;
+}
+
+/* ======================== contact section Close   =========================  */
+
+
+
+/* ================================================================================
+************************************************************************************
+                  PROGRAMME
+************************************************************************************
+=======================================================================================  */
+
+/* ======================== PROGRAM section Open  =========================  */
+.programme{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.programme ul li{
+    list-style: none;
+
+}
+.programme ul li a{
+    color:#000;
+    font-size: 1.2rem;
+    display: inline-block;
+    line-height:40px;
+    text-decoration: underline;
+    transition: 0.5s ease-out;
+}
+.programme ul li a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.programme a{
+    color: #000;
+    font-weight: bold;
+}
+.final__programme  a{
+    background: var(--main-color);
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding: 5px 25px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 35px 0;
+    transition: .3s ease-out;
+}
+.final__programme  a:hover
+{
+    background: #a0303a;
+    color: #fff;
+}
+
+.keynote .keynote__heading {
+    text-align: center;
+    padding: 5% 0;
+}
+.keynote .keynote__heading h2{
+    color: var(--main-color);
+}
+
+.keynote__speakers__block {
+    text-align: center;
+}
+
+.keynote__speakers {
+    position: relative;
+    box-shadow: -5px 2px 20px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -5px 2px 20px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 2px 20px -8px rgba(0,0,0,0.75);
+    margin-bottom: 35px;
+}
+.keynote__speakers .keynote__img{
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.keynote__speakers__block {
+    position: absolute;
+    background: #fff;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px;
+}
+.keynote__speakers__block h2{
+    color: var(--main-color);
+    font-size: 1.8rem;
+}
+.keynote__speakers__block p em{
+    display: block;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.keynote__speakers__block .plus ,  .keynote__speakers__block .minus {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    border:2px solid var(--main-color);
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    color: var(--main-color);
+    display: inline-block;
+}
+
+.keynote__speakers__block p {
+    display: none;
+}
+
+.keynote__speakers__Btn.active > .plus i::before {
+    content:"\f068" ;
+}
+
+/* ======================== PROGRAM section Close  =========================  */
+
