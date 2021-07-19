@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+    <?php get_header(); ?>
 
     <!-- ========== Home Slider section Open  ====================== -->
 <?php
@@ -21,25 +21,20 @@ $homeBanner= get_field('home_banner_section');
 
     <!-- ========== Home Slider  section Close  ====================== -->
     <!-- ========== seventh-international section Open  ====================== -->
-<?php
- $homehistory = get_field('home_history');
- $homehistorydetail = get_field('home_history_detail');
 
-?>
     <section class="seventh-international">
         <div class="container-fluid">
             <div class="row g-0">
                 <div class="col-md-6 seventh__left">
-                    <img src="<?php  echo $homehistory ['home_history_image']; ?>" alt="" class="img-fluid">
+                    <img src="<?php  the_field('home_history_image'); ?>" alt="" class="img-fluid">
                 </div>
                 <div class="col-md-6 seventh__right">
-                    <h2> <?php echo $homehistorydetail ['history_heading']; ?></h2>
-                    <p>The 7ICCH – Seventh International Congress on Construction History will be broadcast live from Lisbon, Portugal, on 12–16 July 2021.</p>
-                    <h5>Thank you for your submissions.</h5>
+                    <h2> <?php the_field('home_history_title'); ?></h2>
+                    <p><?php the_field('home_history_content'); ?></p>
+                    <h5><?php the_field('home_thank_you_text'); ?></h5>
                     <a href="programme.php">final programme</a>
                     <p class="note__seventh">
-                        We are looking forward to having you
-                        join us online soon! </p>
+                        <?php the_field('history_highlight_text'); ?></p>
                 </div>
             </div>
         </div>
