@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="025910c0-8b8f-4815-8868-1ed75948b64c" name="Default Changelist" comment="" />
+    <list default="true" id="025910c0-8b8f-4815-8868-1ed75948b64c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/7icch/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/7icch/front-page.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +50,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -74,6 +78,7 @@
       <workItem from="1626453399403" duration="1080000" />
       <workItem from="1626689407439" duration="288000" />
       <workItem from="1626691683902" duration="205000" />
+      <workItem from="1626691902512" duration="4789000" />
     </task>
     <servers />
   </component>

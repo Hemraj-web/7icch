@@ -1,14 +1,18 @@
 <?php get_header(); ?>
 
     <!-- ========== Home Slider section Open  ====================== -->
-    <section class="hero__slider" style="background-image: url("../images/home/home-banner.jpg");">
+<?php
+ // hero banner section
+$homeBanner= get_field('home_banner_section');
+?>
+    <section class="hero__slider" style="background-image: url(<?php echo $homeBanner ['banner_image']; ?>);">
+
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xxl-12">
                     <div class="hero__content">
-                        <h1> <span>SEVENTH INTERNATIONAL CONGRESS ON</span> <br/>
-                            CONSTRUCTION HISTORY</h1>
-                        <p>12 - 16 july, 2021 | lisbon, portugal</p>
+                        <h1> <?php echo $homeBanner ['banner_heading']; ?> </h1>
+                        <p> <?php echo $homeBanner ['banner_sub_heading']; ?></p>
                     </div>
                 </div>
             </div>
@@ -17,21 +21,25 @@
 
     <!-- ========== Home Slider  section Close  ====================== -->
     <!-- ========== seventh-international section Open  ====================== -->
+<?php
+ $homehistory = get_field('home_history');
+ $homehistorydetail = get_field('home_history_detail');
+
+?>
     <section class="seventh-international">
         <div class="container-fluid">
             <div class="row g-0">
                 <div class="col-md-6 seventh__left">
-                    <img src="images/home/seventh-international.png" alt="" class="img-fluid">
+                    <img src="<?php  echo $homehistory ['home_history_image']; ?>" alt="" class="img-fluid">
                 </div>
                 <div class="col-md-6 seventh__right">
-                    <h2>SEVENTH INTERNATIONAL
-                        CONGRESS ON CONSTRUCTION HISTORY</h2>
+                    <h2> <?php echo $homehistorydetail ['history_heading']; ?></h2>
                     <p>The 7ICCH – Seventh International Congress on Construction History will be broadcast live from Lisbon, Portugal, on 12–16 July 2021.</p>
                     <h5>Thank you for your submissions.</h5>
                     <a href="programme.php">final programme</a>
                     <p class="note__seventh">
                         We are looking forward to having you
-                        join us online soon!</p>
+                        join us online soon! </p>
                 </div>
             </div>
         </div>
